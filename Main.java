@@ -1,6 +1,6 @@
 class Main {
     public static void main(String[] args) {
-        setup(args[0]);
+        setupPong(args[0]);
     }
 
     private void setupPong(final String token) {
