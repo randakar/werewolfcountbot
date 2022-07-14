@@ -3,7 +3,7 @@ class Main {
         setup(args[0]);
     }
 
-    private setupPong(final String token) {
+    private void setupPong(final String token) {
         final DiscordClient client = DiscordClient.create(token);
 
         client.login()
